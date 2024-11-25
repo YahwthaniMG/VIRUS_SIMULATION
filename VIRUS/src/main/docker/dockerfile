@@ -1,0 +1,17 @@
+# Usar la imagen oficial de Java
+FROM openjdk:17-jdk
+
+# Crear directorio de trabajo
+WORKDIR /app
+
+# Copiar el archivo .java y otros archivos necesarios
+COPY . /app/
+
+# Compilar el programa Java
+RUN javac TCPServer.java
+
+# Exponer el puerto 7777 para conexiones TCP
+EXPOSE 7777
+
+# Comando para ejecutar el servidor
+CMD ["java", "TCPServer"]
