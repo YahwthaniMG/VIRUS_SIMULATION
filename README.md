@@ -24,7 +24,7 @@ VIRUS es un sistema de simulación multi-agente que modela la propagación de un
 
 - Java Development Kit (JDK) 17 o superior
 - Docker
-- Sistema operativo compatible con Java (Windows, Linux, macOS)
+- Sistema operativo compatible con Java y Visual Studio Code (Windows, macOS)
 
 ## 🚀 Instalación y Ejecución
 
@@ -48,9 +48,12 @@ docker run -p 7777:7777 virus-server
 ### Ejecución del Simulador
 
 1. Compilar el proyecto:
-```bash
-javac -d bin src/main/java/com/virus/**/*.java
-```
+   - Para Visual Studio Code, abra la carpeta del proyecto raiz (VIRUS), busque el codigo Main.java y ejecute (Es necesario tener extensiones de Java para el editor ).
+   - Extensiones necesarias:
+        - Extension Pack for Java
+        - Java
+        - Java Language Support
+        - Java Run
 
 2. Ejecutar la aplicación:
 ```bash
