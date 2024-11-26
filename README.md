@@ -55,11 +55,6 @@ docker run -p 7777:7777 virus-server
         - Java Language Support
         - Java Run
 
-2. Ejecutar la aplicación:
-```bash
-java -cp bin com.virus.Main
-```
-
 ## 🎮 Uso del Simulador
 
 1. Al iniciar, ingresar el número total de agentes (recomendado: entre 3 y 100)
